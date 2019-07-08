@@ -1,60 +1,405 @@
-[21:27:01] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:27:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:27:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:27:01] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:27:01] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:27:01] [Server thread/INFO]: Starting minecraft server version 1.14.3
-[21:27:01] [Server thread/INFO]: Loading properties
-[21:27:01] [Server thread/INFO]: Default game type: SURVIVAL
-[21:27:01] [Server thread/INFO]: Generating keypair
-[21:27:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:27:01] [Server thread/INFO]: Using default channel type
-[21:27:02] [Server thread/INFO]: Preparing level "world"
-[21:27:02] [Server thread/INFO]: Reloading ResourceManager: Default
-[21:27:03] [Server thread/INFO]: Loaded 6 recipes
-[21:27:04] [Server thread/INFO]: Loaded 811 advancements
-[21:27:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:08] [Server thread/INFO]: Preparing spawn area: 0%
-[21:27:11] [Server-Worker-4/INFO]: Preparing spawn area: 83%
-[21:27:11] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[21:27:11] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[21:27:11] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[21:27:11] [Server thread/INFO]: Preparing spawn area: 83%
-[21:27:11] [Server thread/INFO]: Time elapsed: 6843 ms
-[21:27:11] [Server thread/INFO]: Done (8.895s)! For help, type "help"
-[21:27:24] [User Authenticator #1/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
-[21:27:24] [Server thread/INFO]: zachleong[/101.164.213.99:7405] logged in with entity id 248 at (213.5, 65.0, -46.5)
-[21:27:24] [Server thread/INFO]: zachleong joined the game
-[21:27:43] [Server thread/INFO]: zachleong lost connection: Disconnected
-[21:27:43] [Server thread/INFO]: zachleong left the game
-[21:28:25] [User Authenticator #2/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
-[21:28:25] [Server thread/INFO]: zachleong[/101.164.213.99:7499] logged in with entity id 270 at (213.5, 65.0, -46.5)
-[21:28:25] [Server thread/INFO]: zachleong joined the game
-[21:28:47] [User Authenticator #3/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
-[21:28:49] [Server thread/INFO]: zachleong lost connection: Disconnected
-[21:28:49] [Server thread/INFO]: zachleong left the game
-[21:28:49] [Server thread/INFO]: zachleong[/101.164.213.99:7525] logged in with entity id 331 at (213.5, 65.0, -46.5)
-[21:28:49] [Server thread/INFO]: zachleong joined the game
-[21:29:06] [Server thread/INFO]: zachleong lost connection: Disconnected
-[21:29:06] [Server thread/INFO]: zachleong left the game
-[21:29:28] [Server thread/INFO]: Stopping the server
-[21:29:28] [Server thread/INFO]: Stopping server
-[21:29:28] [Server thread/INFO]: Saving players
-[21:29:28] [Server thread/INFO]: Saving worlds
-[21:29:28] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[21:29:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:29:28] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[21:29:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:29:28] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[21:29:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:29:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:29:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:29:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:44:15] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:44:15] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:44:15] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:44:15] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:44:15] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:44:15] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[04:44:15] [Server thread/INFO]: Loading properties
+[04:44:15] [Server thread/INFO]: Default game type: SURVIVAL
+[04:44:15] [Server thread/INFO]: Generating keypair
+[04:44:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:44:16] [Server thread/INFO]: Using epoll channel type
+[04:44:16] [Server thread/INFO]: Preparing level "world"
+[04:44:16] [Server thread/INFO]: Reloading ResourceManager: Default
+[04:44:48] [Server thread/INFO]: Loaded 6 recipes
+[04:44:48] [Server thread/INFO]: Loaded 811 advancements
+[04:44:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:44:51] [Server thread/INFO]: Preparing spawn area: 0%
+[04:44:51] [Server thread/INFO]: Preparing spawn area: 0%
+[04:44:51] [Server thread/INFO]: Preparing spawn area: 0%
+[04:44:51] [Server thread/INFO]: Preparing spawn area: 0%
+[04:44:51] [Server thread/INFO]: Preparing spawn area: 0%
+[04:44:51] [Server thread/INFO]: Preparing spawn area: 0%
+[04:44:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[04:44:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[04:44:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[04:44:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[04:44:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[04:44:54] [Server-Worker-1/INFO]: Preparing spawn area: 99%
+[04:44:54] [Server thread/INFO]: Preparing spawn area: 99%
+[04:44:55] [Server thread/INFO]: Time elapsed: 6573 ms
+[04:44:55] [Server thread/INFO]: Done (38.797s)! For help, type "help"
+[04:45:22] [User Authenticator #1/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[04:45:22] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:51873] logged in with entity id 256 at (205.36075170213184, 64.0, -32.06115208134056)
+[04:45:22] [Server thread/INFO]: EarthOspreyHD joined the game
+[04:47:42] [Server thread/INFO]: EarthOspreyHD has made the advancement [Sweet Dreams]
+[04:49:10] [User Authenticator #2/INFO]: UUID of player kebab_yes_please is 0cff7b2e-8c02-4f44-b914-f9ca5cde3c13
+[04:49:10] [Server thread/INFO]: kebab_yes_please[/101.164.231.195:64482] logged in with entity id 944 at (201.5, 63.0, -37.5)
+[04:49:10] [Server thread/INFO]: kebab_yes_please joined the game
+[04:49:19] [Server thread/INFO]: <kebab_yes_please> yes please
+[04:49:25] [Server thread/INFO]: <EarthOspreyHD> solid name
+[04:49:50] [Server thread/INFO]: <EarthOspreyHD> hello gamer
+[04:49:51] [Server thread/INFO]: <kebab_yes_please> steve
+[04:49:57] [Server thread/INFO]: <kebab_yes_please> i am black
+[04:50:03] [Server thread/INFO]: <EarthOspreyHD> you are indeed
+[04:50:14] [Server thread/INFO]: <EarthOspreyHD> this is the gamer dungeon
+[04:50:16] [Server thread/INFO]: <kebab_yes_please> so if u disconnect
+[04:50:20] [Server thread/INFO]: <kebab_yes_please> will it still run?
+[04:50:23] [Server thread/INFO]: <EarthOspreyHD> yeah
+[04:50:26] [Server thread/INFO]: <kebab_yes_please> pog
+[04:50:48] [Server thread/INFO]: <kebab_yes_please> gaming
+[04:51:17] [Server thread/INFO]: <kebab_yes_please> my fists hurt
+[04:51:31] [Server thread/INFO]: <EarthOspreyHD> makybe stop punching rock
+[04:51:40] [Server thread/INFO]: <kebab_yes_please> me punch :)
+[04:53:23] [Server thread/INFO]: <kebab_yes_please> wood
+[04:53:26] [Server thread/INFO]: <EarthOspreyHD> ty
+[04:53:42] [Server thread/INFO]: <kebab_yes_please> i become bamboo farmer
+[04:54:06] [Server thread/INFO]: kebab_yes_please has made the advancement [Stone Age]
+[04:54:13] [Server thread/INFO]: <kebab_yes_please> achievement get!
+[04:54:19] [Server thread/INFO]: <EarthOspreyHD> !
+[04:54:19] [Server thread/INFO]: <kebab_yes_please> im killin iT!
+[04:54:27] [Server thread/INFO]: <EarthOspreyHD> cannot be stopped
+[04:55:10] [Server thread/INFO]: kebab_yes_please has made the advancement [Getting an Upgrade]
+[04:55:43] [Server thread/INFO]: <kebab_yes_please> woh
+[04:55:47] [Server thread/INFO]: <EarthOspreyHD> i hear water
+[04:55:52] [Server thread/INFO]: <EarthOspreyHD> i find
+[04:56:02] [Server thread/INFO]: <kebab_yes_please> wet
+[04:56:05] [Server thread/INFO]: <EarthOspreyHD> i want diamonds
+[04:56:40] [Server thread/INFO]: kebab_yes_please tried to swim in lava
+[04:56:41] [Server thread/INFO]: <kebab_yes_please> fuck
+[04:56:57] [Server thread/INFO]: <kebab_yes_please> dont dig straight down ok
+[04:56:58] [User Authenticator #3/INFO]: UUID of player big_d1ck_boi is 0089ee9a-d6dd-46a5-8b5e-e814c203b7a1
+[04:56:58] [Server thread/INFO]: big_d1ck_boi[/101.164.241.26:60518] logged in with entity id 2434 at (205.5, 63.0, -48.5)
+[04:56:58] [Server thread/INFO]: big_d1ck_boi joined the game
+[04:56:59] [Server thread/INFO]: <EarthOspreyHD> that waasn't a gamer move
+[04:57:04] [Server thread/INFO]: <EarthOspreyHD> waddup campnell
+[04:57:04] [Server thread/INFO]: <kebab_yes_please> who dis?
+[04:57:07] [Server thread/INFO]: <kebab_yes_please> dam
+[04:57:14] [Server thread/INFO]: <kebab_yes_please> gamers are in
+[04:57:17] [Server thread/INFO]: <kebab_yes_please> women are out
+[04:58:50] [Server thread/INFO]: <kebab_yes_please> moist
+[05:00:03] [Server thread/INFO]: <EarthOspreyHD> dangerous
+[05:00:07] [Server thread/INFO]: <kebab_yes_please> ouchie
+[05:00:23] [Server thread/INFO]: <kebab_yes_please> i aint a bitch nigga tho
+[05:00:58] [Server thread/INFO]: <kebab_yes_please> me black :)
+[05:01:01] [Server thread/INFO]: <kebab_yes_please> me steal :)
+[05:01:20] [Server thread/INFO]: <kebab_yes_please> where are the diamonds
+[05:01:41] [Server thread/INFO]: <kebab_yes_please> crepper aww manw
+[05:01:48] [Server thread/INFO]: EarthOspreyHD has made the advancement [Monster Hunter]
+[05:01:53] [Server thread/INFO]: <kebab_yes_please> im half a heart
+[05:02:00] [Server thread/INFO]: <kebab_yes_please> KLIK
+[05:02:02] [Server thread/INFO]: <kebab_yes_please> LOL
+[05:02:04] [Server thread/INFO]: <EarthOspreyHD> yummy]
+[05:02:07] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[05:02:21] [Server thread/INFO]: <kebab_yes_please> im actually c4ryinmg
+[05:02:48] [Server thread/INFO]: <big_d1ck_boi> YO WHERE YOU BOYS AT
+[05:02:53] [Server thread/INFO]: <kebab_yes_please> gaming dungeon
+[05:02:55] [Server thread/INFO]: <EarthOspreyHD> we mining
+[05:03:07] [Server thread/INFO]: <EarthOspreyHD> yeah you gotta look for the gaming dungeon
+[05:03:12] [Server thread/INFO]: <kebab_yes_please> so we back in the mine got our pickaxes swinging from side to side
+[05:03:14] [Server thread/INFO]: big_d1ck_boi was shot by Skeleton
+[05:03:15] [Server thread/INFO]: <kebab_yes_please> s-side to side
+[05:03:24] [Server thread/INFO]: <big_d1ck_boi> i am very lost
+[05:03:29] [Server thread/INFO]: <kebab_yes_please> can we tp him
+[05:03:32] [Server thread/INFO]: <big_d1ck_boi> i will wait until day break
+[05:03:48] [Server thread/INFO]: No entity was found
+[05:03:59] [Server thread/INFO]: <kebab_yes_please> can i have a spare stone pickaxe
+[05:04:04] [Server thread/INFO]: <kebab_yes_please> its like wellfare
+[05:04:13] [Server thread/INFO]: <kebab_yes_please> arigato gezimas
+[05:04:17] [Server thread/INFO]: <EarthOspreyHD> there you go gamer!
+[05:04:29] [Server thread/INFO]: <kebab_yes_please> (smiley face) thank you fellow gamer!
+[05:05:34] [Server thread/INFO]: <kebab_yes_please> this music is bangin on my end
+[05:06:01] [Server thread/INFO]: <EarthOspreyHD> im returning to gamer dungeon
+[05:06:24] [Server thread/INFO]: <kebab_yes_please> u hear dat
+[05:06:27] [Server thread/INFO]: <EarthOspreyHD> yeah
+[05:07:08] [Server thread/INFO]: <EarthOspreyHD> youc ampbell
+[05:07:11] [Server thread/INFO]: <kebab_yes_please> campbell
+[05:07:12] [Server thread/INFO]: <kebab_yes_please> down
+[05:07:12] [Server thread/INFO]: <EarthOspreyHD> where you at
+[05:07:16] [Server thread/INFO]: <kebab_yes_please> behind u
+[05:07:23] [Server thread/INFO]: <EarthOspreyHD> we are worried sick
+[05:07:35] [Server thread/INFO]: <big_d1ck_boi> no
+[05:07:41] [Server thread/INFO]: <big_d1ck_boi> i am hiding
+[05:07:56] [Server thread/INFO]: <kebab_yes_please> oof
+[05:08:00] [Server thread/INFO]: <kebab_yes_please> come to the dungeon
+[05:08:17] [Server thread/INFO]: <kebab_yes_please> woah
+[05:08:22] [Server thread/INFO]: <kebab_yes_please> its crowded in here
+[05:08:24] [Server thread/INFO]: <kebab_yes_please> lots a gamers
+[05:08:28] [Server thread/INFO]: EarthOspreyHD has made the advancement [Acquire Hardware]
+[05:08:40] [Server thread/INFO]: EarthOspreyHD has made the advancement [Isn't It Iron Pick]
+[05:09:27] [Server thread/INFO]: <EarthOspreyHD> sleep in the bed
+[05:09:30] [Server thread/INFO]: <EarthOspreyHD> then you spawn here
+[05:09:40] [Server thread/INFO]: <kebab_yes_please> gamers unite!
+[05:10:34] [Server thread/INFO]: kebab_yes_please has made the advancement [Acquire Hardware]
+[05:11:15] [Server thread/INFO]: <kebab_yes_please> the gaMER DUNGEON
+[05:11:20] [Server thread/INFO]: <big_d1ck_boi> wtf
+[05:11:24] [Server thread/INFO]: <big_d1ck_boi> what happened
+[05:11:28] [Server thread/INFO]: <kebab_yes_please> crepper
+[05:11:39] [Server thread/INFO]: <big_d1ck_boi> god dammit hamish
+[05:11:46] [Server thread/INFO]: <EarthOspreyHD> i leave you two boys for one second
+[05:11:56] [Server thread/INFO]: big_d1ck_boi was slain by kebab_yes_please
+[05:12:05] [Server thread/INFO]: <kebab_yes_please> yes please
+[05:12:40] [Server thread/INFO]: <kebab_yes_please> ah shit
+[05:12:53] [Server thread/INFO]: <kebab_yes_please> ur like herobrine
+[05:12:53] [Server thread/INFO]: <big_d1ck_boi> i am lost
+[05:13:05] [Server thread/INFO]: <EarthOspreyHD> same
+[05:13:05] [Server thread/INFO]: kebab_yes_please was slain by big_d1ck_boi
+[05:13:07] [Server thread/INFO]: big_d1ck_boi has made the advancement [Getting an Upgrade]
+[05:13:07] [Server thread/INFO]: <kebab_yes_please> niggers
+[05:13:14] [Server thread/INFO]: big_d1ck_boi has made the advancement [Stone Age]
+[05:13:32] [Server thread/INFO]: <EarthOspreyHD> imma go have lunch
+[05:13:35] [Server thread/INFO]: <EarthOspreyHD> brb
+[05:13:37] [Server thread/INFO]: <kebab_yes_please> ok
+[05:13:39] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[05:13:39] [Server thread/INFO]: EarthOspreyHD left the game
+[05:13:40] [Server thread/INFO]: <kebab_yes_please> can iu have my iron back
+[05:13:50] [Server thread/INFO]: <big_d1ck_boi> i cant get out
+[05:13:55] [Server thread/INFO]: <big_d1ck_boi> so.....
+[05:14:00] [Server thread/INFO]: <kebab_yes_please> nice
+[05:14:20] [Server thread/INFO]: <kebab_yes_please> ur pro at this game wtf
+[05:14:25] [Server thread/INFO]: <big_d1ck_boi> the contrast on my screen is shitty
+[05:14:33] [Server thread/INFO]: <big_d1ck_boi> so i cant see anything
+[05:14:33] [Server thread/INFO]: <kebab_yes_please> is itsuper dark?
+[05:14:42] [Server thread/INFO]: <kebab_yes_please> i can lead u out
+[05:14:42] [Server thread/INFO]: big_d1ck_boi tried to swim in lava
+[05:14:50] [Server thread/INFO]: <kebab_yes_please> nice dude
+[05:14:52] [Server thread/INFO]: <big_d1ck_boi> lul
+[05:18:25] [Server thread/INFO]: big_d1ck_boi has made the advancement [Sweet Dreams]
+[05:20:06] [Server thread/INFO]: <big_d1ck_boi> go to bed retard
+[05:20:11] [Server thread/INFO]: <kebab_yes_please> ?
+[05:20:13] [Server thread/INFO]: <kebab_yes_please> should i
+[05:20:16] [Server thread/INFO]: <big_d1ck_boi> ye
+[05:20:25] [Server thread/INFO]: <kebab_yes_please> i need to walk up to the bed then
+[05:20:34] [Server thread/INFO]: <big_d1ck_boi> i am in this bed
+[05:20:38] [Server thread/INFO]: <big_d1ck_boi> go find another
+[05:20:39] [Server thread/INFO]: <kebab_yes_please> hmm
+[05:22:50] [Server thread/INFO]: kebab_yes_please has made the advancement [Monster Hunter]
+[05:24:19] [Server thread/INFO]: <kebab_yes_please> i cant find any fucking sheep
+[05:24:26] [Server thread/INFO]: <big_d1ck_boi> go to bed
+[05:24:33] [Server thread/INFO]: <big_d1ck_boi> and we will go looking in the morning
+[05:24:35] [Server thread/INFO]: <big_d1ck_boi> pussy
+[05:24:40] [Server thread/INFO]: <kebab_yes_please> i cant go to bed without one
+[05:24:44] [Server thread/INFO]: <kebab_yes_please> and to make one i need wool
+[05:24:48] [Server thread/INFO]: <kebab_yes_please> from sheep
+[05:24:54] [Server thread/INFO]: <big_d1ck_boi> for fucks sake
+[05:24:59] [Server thread/INFO]: kebab_yes_please has made the advancement [Sweet Dreams]
+[05:25:12] [Server thread/INFO]: <kebab_yes_please> hey man im posted up ready to rumble in my bed wheres urs broski?
+[05:25:35] [Server thread/INFO]: <kebab_yes_please> hit me so i respawn
+[05:25:41] [Server thread/INFO]: kebab_yes_please was slain by big_d1ck_boi
+[05:25:45] [Server thread/INFO]: <kebab_yes_please> ty
+[05:26:33] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[05:28:52] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[05:29:13] [Server thread/INFO]: big_d1ck_boi has made the advancement [Monster Hunter]
+[05:32:19] [Server thread/INFO]: big_d1ck_boi has made the advancement [Acquire Hardware]
+[05:32:52] [Server thread/INFO]: big_d1ck_boi has made the advancement [Suit Up]
+[05:34:59] [Server thread/WARN]: kebab_yes_please moved too quickly! -1.2689400521919652,-0.4135892827379166,10.012130736672646
+[05:34:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3586ms or 71 ticks behind
+[05:36:29] [Server thread/INFO]: <kebab_yes_please> lol stole a bed from some village niggas
+[05:36:40] [Server thread/INFO]: <big_d1ck_boi> nice
+[05:39:33] [Server thread/INFO]: <kebab_yes_please> im in a bed right now, so if u can get in one we can go to daytime
+[05:40:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3048ms or 60 ticks behind
+[05:40:06] [Server thread/INFO]: <big_d1ck_boi> kk
+[05:40:22] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:22] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:23] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:23] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:23] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:23] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:23] [Server thread/INFO]: <big_d1ck_boi> z
+[05:40:23] [Server thread/INFO]: <big_d1ck_boi> z
+[05:42:09] [Server thread/INFO]: big_d1ck_boi hit the ground too hard
+[05:43:50] [Server thread/INFO]: big_d1ck_boi lost connection: Disconnected
+[05:43:50] [Server thread/INFO]: big_d1ck_boi left the game
+[05:45:05] [Server thread/WARN]: kebab_yes_please moved too quickly! -9.392576005671629,1.0244240882136921,3.3539879241966446
+[05:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3192ms or 63 ticks behind
+[05:45:36] [User Authenticator #4/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[05:45:36] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:52197] logged in with entity id 15703 at (349.30000001192093, 75.0, -11.31303128559625)
+[05:45:36] [Server thread/INFO]: EarthOspreyHD joined the game
+[05:46:05] [Server thread/INFO]: <kebab_yes_please> what are the cords for the dungeon
+[05:46:12] [Server thread/INFO]: <EarthOspreyHD> dont know
+[05:46:20] [Server thread/INFO]: <EarthOspreyHD> i might be ablt to tell you in a bit
+[05:46:25] [Server thread/INFO]: <kebab_yes_please> ok
+[05:46:28] [Server thread/INFO]: <kebab_yes_please> wtf
+[05:46:33] [Server thread/INFO]: <kebab_yes_please> i just found some temple shit
+[05:49:43] [Server thread/INFO]: <kebab_yes_please> press f3
+[05:49:47] [Server thread/INFO]: <kebab_yes_please> and tell me cords ty
+[05:49:53] [Server thread/INFO]: <EarthOspreyHD> im not at the dungeon
+[05:49:56] [Server thread/INFO]: <kebab_yes_please> ahh shit
+[05:50:02] [Server thread/INFO]: <EarthOspreyHD> im trying to get there myself
+[05:50:09] [Server thread/WARN]: kebab_yes_please moved too quickly! 6.938799200471465,1.1661092609382138,-7.435797984036981
+[05:50:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4412ms or 88 ticks behind
+[05:51:42] [Server thread/INFO]: <EarthOspreyHD> found it
+[05:51:57] [Server thread/INFO]: <EarthOspreyHD> x: 206
+[05:52:02] [Server thread/INFO]: <EarthOspreyHD> y: 59
+[05:52:10] [Server thread/INFO]: <EarthOspreyHD> z: -20
+[05:52:21] [Server thread/INFO]: <kebab_yes_please> could u also sleep so its daytime and i dont get fucked by mobs
+[05:53:48] [Server thread/INFO]: kebab_yes_please has made the advancement [Isn't It Iron Pick]
+[05:53:59] [Server thread/INFO]: <EarthOspreyHD> iron pick
+[05:54:02] [Server thread/INFO]: <EarthOspreyHD> like ironic
+[05:54:06] [Server thread/INFO]: <EarthOspreyHD> isn't it ironpick
+[05:54:10] [Server thread/INFO]: <EarthOspreyHD> lol
+[05:54:12] [Server thread/INFO]: <kebab_yes_please> yah i stole a bunch of shit from the village niggas
+[05:54:17] [Server thread/INFO]: <kebab_yes_please> ive got so much shit
+[05:54:22] [Server thread/INFO]: <EarthOspreyHD> nice
+[05:55:13] [Server thread/WARN]: kebab_yes_please moved too quickly! 0.23578429046602878,0.16779664663324922,-10.413293301424801
+[05:55:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3519ms or 70 ticks behind
+[05:57:24] [Server thread/INFO]: <kebab_yes_please> check the chest out
+[05:57:40] [Server thread/INFO]: <EarthOspreyHD> damn
+[05:57:42] [Server thread/INFO]: <kebab_yes_please> wtf even is half of that
+[05:57:55] [Server thread/INFO]: <EarthOspreyHD> i dont know
+[05:57:58] [Server thread/INFO]: <kebab_yes_please> smithing and cartography table
+[05:58:00] [Server thread/INFO]: <EarthOspreyHD> they added a bunch of stuff
+[05:58:05] [Server thread/INFO]: <EarthOspreyHD> yeah i dont know what those do
+[05:58:07] [Server thread/INFO]: <kebab_yes_please> cant wait to smith and cartograph
+[05:58:22] [Server thread/INFO]: kebab_yes_please has made the advancement [Suit Up]
+[05:58:29] [Server thread/INFO]: <kebab_yes_please> im flexxin
+[05:58:34] [Server thread/INFO]: EarthOspreyHD has made the advancement [Suit Up]
+[05:58:39] [Server thread/INFO]: <kebab_yes_please> shiitt
+[06:01:16] [Server thread/INFO]: EarthOspreyHD has made the advancement [Not Today, Thank You]
+[06:01:29] [Server thread/INFO]: <kebab_yes_please> should i make chest piece or sword and axe and shit
+[06:01:41] [Server thread/INFO]: <EarthOspreyHD> depends what you're doing
+[06:01:44] [Server thread/INFO]: <kebab_yes_please> im gaming
+[06:01:46] [Server thread/INFO]: <EarthOspreyHD> get an iron sword
+[06:01:49] [Server thread/INFO]: <EarthOspreyHD> and iron pick
+[06:01:53] [Server thread/INFO]: <EarthOspreyHD> then shield
+[06:02:04] [Server thread/INFO]: <EarthOspreyHD> then go armour or somehitng
+[06:02:08] [Server thread/INFO]: <EarthOspreyHD> iron is really easy to get
+[06:02:14] [Server thread/INFO]: <EarthOspreyHD> so it doesnt really matter
+[06:02:59] [Server thread/INFO]: <kebab_yes_please> u wanna go see the temple that i found?
+[06:03:06] [Server thread/INFO]: <EarthOspreyHD> aight
+[06:03:28] [Server thread/INFO]: <kebab_yes_please> lets go in day
+[06:06:29] [Server thread/INFO]: <EarthOspreyHD> dont step on the pressure plate
+[06:06:39] [Server thread/INFO]: <EarthOspreyHD> lodes tnt
+[06:07:01] [Server thread/INFO]: EarthOspreyHD has made the advancement [Diamonds!]
+[06:07:04] [Server thread/INFO]: <kebab_yes_please> wtf
+[06:07:07] [Server thread/INFO]: <EarthOspreyHD> lul
+[06:07:13] [Server thread/INFO]: <kebab_yes_please> give mne so i get achievemrnt then i give back
+[06:07:14] [Server thread/INFO]: <kebab_yes_please> ty
+[06:07:14] [Server thread/INFO]: kebab_yes_please has made the advancement [Diamonds!]
+[06:07:20] [Server thread/INFO]: <EarthOspreyHD> you can keep
+[06:07:23] [Server thread/INFO]: <kebab_yes_please> o
+[06:07:31] [Server thread/INFO]: <kebab_yes_please> glucose guardian
+[06:07:47] [Server thread/INFO]: <kebab_yes_please> we should blow up sam when he joins
+[06:08:04] [Server thread/INFO]: <EarthOspreyHD> that would be difficult
+[06:09:31] [Server thread/INFO]: <EarthOspreyHD> ez money
+[06:20:14] [Server thread/WARN]: EarthOspreyHD moved too quickly! -7.466125543652737,1.252203340253729,-6.700362320203496
+[06:21:41] [Server thread/INFO]: <kebab_yes_please> whatchu lookin for
+[06:21:46] [Server thread/INFO]: <EarthOspreyHD> notihn
+[06:21:49] [Server thread/INFO]: <EarthOspreyHD> was putting stuff away
+[06:32:24] [Server thread/WARN]: Fetching packet for removed entity ats['Cobblestone'/29795, l='world', x=196.53, y=30.22, z=-9.57]
+[06:33:59] [User Authenticator #5/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
+[06:33:59] [Server thread/INFO]: zachleong[/101.164.213.99:14023] logged in with entity id 30087 at (213.5, 65.0, -46.5)
+[06:33:59] [Server thread/INFO]: zachleong joined the game
+[06:34:11] [Server thread/INFO]: <zachleong> fjkdslfd
+[06:34:16] [Server thread/INFO]: <kebab_yes_please> u guys wanna get on server?
+[06:34:16] [Server thread/INFO]: <EarthOspreyHD> you in?
+[06:34:18] [Server thread/INFO]: <zachleong> i fixed it
+[06:34:30] [Server thread/INFO]: <EarthOspreyHD> i dont think you fixed it
+[06:34:36] [Server thread/INFO]: <EarthOspreyHD> this isn't running on my computer
+[06:34:49] [Server thread/INFO]: <EarthOspreyHD> this is on microsoft azure
+[06:34:54] [Server thread/INFO]: <EarthOspreyHD> so an actaul server
+[06:34:54] [Server thread/INFO]: <kebab_yes_please> do you have a server at home
+[06:34:56] [Server thread/INFO]: <kebab_yes_please> o
+[06:34:57] [Server thread/INFO]: zachleong lost connection: Disconnected
+[06:34:57] [Server thread/INFO]: zachleong left the game
+[06:34:59] [Server thread/INFO]: <kebab_yes_please> ah
+[06:35:01] [Server thread/INFO]: <kebab_yes_please> and there he goes
+[06:35:11] [Server thread/INFO]: <EarthOspreyHD> get in discord
+[06:35:13] [User Authenticator #6/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
+[06:35:14] [Server thread/INFO]: zachleong[/101.164.213.99:14045] logged in with entity id 30375 at (210.073426962361, 76.0, -93.21252837890908)
+[06:35:14] [Server thread/INFO]: zachleong joined the game
+[06:35:57] [Server thread/INFO]: zachleong lost connection: Disconnected
+[06:35:57] [Server thread/INFO]: zachleong left the game
+[06:59:21] [Server thread/INFO]: kebab_yes_please tried to swim in lava
+[07:09:22] [User Authenticator #7/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
+[07:09:22] [Server thread/INFO]: zachleong[/101.164.213.99:14191] logged in with entity id 38402 at (205.32235027823873, 63.0, -23.681491579414946)
+[07:09:22] [Server thread/INFO]: zachleong joined the game
+[07:12:28] [Server thread/INFO]: zachleong has made the advancement [Sweet Dreams]
+[07:12:56] [Server thread/INFO]: zachleong has made the advancement [Stone Age]
+[07:13:50] [Server thread/INFO]: zachleong has made the advancement [Getting an Upgrade]
+[07:15:30] [Server thread/INFO]: zachleong has made the advancement [Monster Hunter]
+[07:16:25] [Server thread/INFO]: The difficulty has been set to Hard
+[07:19:11] [Server thread/INFO]: zachleong fell from a high place
+[07:25:01] [Server thread/INFO]: zachleong has made the advancement [Acquire Hardware]
+[07:25:06] [Server thread/INFO]: zachleong has made the advancement [Isn't It Iron Pick]
+[07:25:54] [Server thread/INFO]: zachleong was slain by Zombie
+[07:26:18] [Server thread/INFO]: zachleong fell from a high place
+[07:26:19] [Server thread/WARN]: zachleong moved too quickly! 1.800000011920929,50.5625002,3.1919393046368896
+[07:28:12] [Server thread/INFO]: zachleong was shot by Skeleton
+[07:29:04] [Server thread/INFO]: zachleong was slain by Zombie
+[07:29:17] [Server thread/INFO]: zachleong fell from a high place
+[07:29:18] [Server thread/WARN]: zachleong moved too quickly! 1.985685045036206,50.5625002,3.199999988079071
+[07:30:11] [Server thread/INFO]: zachleong was slain by Zombie
+[07:30:12] [Server thread/WARN]: zachleong moved too quickly! 4.802555334439774,51.5625002,-5.227401920823722
+[07:30:26] [Server thread/INFO]: zachleong was slain by Zombie
+[07:30:41] [Server thread/INFO]: zachleong was slain by Zombie
+[07:31:22] [Server thread/INFO]: zachleong was slain by Zombie
+[07:31:50] [Server thread/INFO]: zachleong was slain by Zombie
+[07:32:05] [Server thread/INFO]: zachleong was slain by Zombie
+[07:32:20] [Server thread/INFO]: zachleong was slain by Zombie
+[07:33:03] [Server thread/INFO]: EarthOspreyHD has made the advancement [Hot Stuff]
+[07:33:04] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:33:06] [Server thread/WARN]: zachleong moved too quickly! 8.348990484206297,45.5625002,-3.713299672766121
+[07:33:21] [Server thread/INFO]: EarthOspreyHD has made the advancement [Ice Bucket Challenge]
+[07:33:21] [Server thread/INFO]: zachleong was slain by Zombie
+[07:33:27] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[07:33:40] [Server thread/INFO]: zachleong was slain by Zombie
+[07:33:47] [Server thread/INFO]: zachleong fell from a high place
+[07:34:07] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[07:36:25] [Server thread/INFO]: zachleong was shot by Skeleton
+[07:38:55] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:38:57] [Server thread/WARN]: zachleong moved too quickly! 2.1636081522223947,49.5625002,-6.178445478735343
+[07:39:12] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:39:29] [Server thread/INFO]: zachleong was shot by Skeleton
+[07:40:16] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:40:45] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:40:46] [Server thread/WARN]: zachleong moved too quickly! 8.925939011789836,45.5625002,-2.0638452578402617
+[07:41:31] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:42:16] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:42:21] [Server thread/INFO]: zachleong fell from a high place
+[07:42:23] [Server thread/WARN]: zachleong moved too quickly! 2.029981897568291,25.562500200000002,2.9244949029740184
+[07:42:30] [Server thread/INFO]: zachleong fell from a high place
+[07:43:23] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:43:24] [Server thread/WARN]: zachleong moved too quickly! 10.800000011920929,38.00129188948902,-5.1999999880790675
+[07:43:46] [Server thread/INFO]: EarthOspreyHD was slain by Skeleton
+[07:43:48] [Server thread/INFO]: zachleong has made the advancement [Ice Bucket Challenge]
+[07:43:48] [Server thread/INFO]: zachleong has made the advancement [Suit Up]
+[07:43:49] [Server thread/WARN]: EarthOspreyHD moved too quickly! -4.981447119927367,40.0000002,-5.463927902494504
+[07:44:22] [Server thread/INFO]: zachleong has made the advancement [Diamonds!]
+[07:45:55] [Server thread/INFO]: zachleong was blown up by Creeper
+[07:49:59] [Server thread/INFO]: zachleong fell from a high place
+[07:51:15] [Server thread/INFO]: zachleong has made the advancement [Best Friends Forever]
+[07:57:29] [Server thread/INFO]: zachleong hit the ground too hard
+[07:58:49] [Server thread/INFO]: zachleong fell from a high place
+[07:58:50] [Server thread/WARN]: zachleong moved too quickly! -4.839873782512399,-1.4374997999999977,10.37831008755672
+[08:00:01] [Server thread/INFO]: zachleong was blown up by Creeper
+[08:00:17] [Server thread/INFO]: zachleong was blown up by Creeper
+[08:01:04] [Server thread/INFO]: zachleong was blown up by Creeper
+[08:03:34] [Server thread/INFO]: zachleong fell from a high place
+[08:05:20] [Server thread/INFO]: zachleong was shot by Pillager
+[08:05:47] [Server thread/INFO]: zachleong was shot by Pillager
+[08:07:01] [Server thread/INFO]: zachleong fell from a high place
+[08:07:02] [Server thread/WARN]: zachleong moved too quickly! 1.8290399286869388,22.562500200000002,2.884860769079527
+[08:12:09] [Server thread/INFO]: zachleong fell from a high place
+[08:12:36] [Server thread/INFO]: zachleong lost connection: Disconnected
+[08:12:36] [Server thread/INFO]: zachleong left the game
+[08:16:01] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[08:16:01] [Server thread/INFO]: EarthOspreyHD left the game
+[08:16:12] [Server thread/INFO]: Unknown command
+[08:16:12] [Server thread/INFO]: save<--[HERE]
+[08:16:41] [Server thread/INFO]: Saving is already turned on
+[08:18:12] [Server thread/INFO]: kebab_yes_please lost connection: Disconnected
+[08:18:12] [Server thread/INFO]: kebab_yes_please left the game
+[08:18:24] [Server thread/INFO]: Stopping the server
+[08:18:24] [Server thread/INFO]: Stopping server
+[08:18:24] [Server thread/INFO]: Saving players
+[08:18:24] [Server thread/INFO]: Saving worlds
+[08:18:24] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[08:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:18:24] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[08:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:18:24] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[08:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:18:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
