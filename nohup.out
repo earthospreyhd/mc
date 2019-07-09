@@ -1,0 +1,110 @@
+[08:20:26] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:20:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:20:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:20:26] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:20:26] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:20:26] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[08:20:26] [Server thread/INFO]: Loading properties
+[08:20:26] [Server thread/INFO]: Default game type: SURVIVAL
+[08:20:26] [Server thread/INFO]: Generating keypair
+[08:20:26] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at ui$2.run(SourceFile:109) [server.jar:?]
+[08:20:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:20:26] [Server thread/INFO]: Using epoll channel type
+[08:20:26] [Server thread/INFO]: Preparing level "world"
+[08:20:27] [Server thread/INFO]: Reloading ResourceManager: Default
+[08:20:59] [Server thread/INFO]: Loaded 6 recipes
+[08:20:59] [Server thread/INFO]: Loaded 811 advancements
+[08:20:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+2019-07-08 08:21:02,433 Server thread WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
+[08:21:52] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:21:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:21:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:21:52] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:21:52] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:21:52] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[08:21:52] [Server thread/INFO]: Loading properties
+[08:21:52] [Server thread/INFO]: Default game type: SURVIVAL
+[08:21:52] [Server thread/INFO]: Generating keypair
+[08:21:52] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at ui$2.run(SourceFile:109) [server.jar:?]
+[08:21:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:21:52] [Server thread/INFO]: Using epoll channel type
+[08:21:53] [Server thread/INFO]: Preparing level "world"
+[08:21:53] [Server thread/INFO]: Reloading ResourceManager: Default
+[08:22:21] [User Authenticator #1/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[08:22:25] [Server thread/INFO]: Loaded 6 recipes
+[08:22:25] [Server thread/INFO]: Loaded 811 advancements
+[08:22:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:22:28] [Server thread/INFO]: Preparing spawn area: 0%
+[08:22:28] [Server thread/INFO]: Preparing spawn area: 0%
+[08:22:28] [Server thread/INFO]: Preparing spawn area: 0%
+[08:22:28] [Server thread/INFO]: Preparing spawn area: 0%
+[08:22:28] [Server thread/INFO]: Preparing spawn area: 0%
+[08:22:28] [Server thread/INFO]: Preparing spawn area: 0%
+[08:22:28] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[08:22:29] [Server thread/INFO]: Preparing spawn area: 29%
+[08:22:29] [Server thread/INFO]: Time elapsed: 3998 ms
+[08:22:29] [Server thread/INFO]: Done (36.670s)! For help, type "help"
+[08:22:30] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:53048] logged in with entity id 179 at (202.30000001192093, 57.5625, -15.882921067726185)
+[08:22:30] [Server thread/INFO]: EarthOspreyHD joined the game
+[08:23:21] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[08:23:21] [Server thread/INFO]: EarthOspreyHD left the game
+[08:23:33] [User Authenticator #2/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[08:23:33] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:53053] logged in with entity id 210 at (202.30000001192093, 57.5625, -15.882921067726185)
+[08:23:33] [Server thread/INFO]: EarthOspreyHD joined the game
+[08:23:35] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[08:23:35] [Server thread/INFO]: EarthOspreyHD left the game
+[08:24:34] [User Authenticator #3/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[08:24:34] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:53067] logged in with entity id 215 at (202.30000001192093, 57.5625, -15.882921067726185)
+[08:24:34] [Server thread/INFO]: EarthOspreyHD joined the game
+[08:24:36] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[08:24:36] [Server thread/INFO]: EarthOspreyHD left the game
+[08:29:06] [User Authenticator #4/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
+[08:29:06] [Server thread/INFO]: zachleong[/101.164.213.99:14542] logged in with entity id 221 at (187.10007422835903, 63.0, 40.51837733537258)
+[08:29:06] [Server thread/INFO]: zachleong joined the game
+[08:29:48] [Server thread/INFO]: zachleong fell from a high place
+[08:33:43] [Server thread/INFO]: zachleong was shot by Pillager
+[08:34:01] [Server thread/INFO]: zachleong has made the advancement [Voluntary Exile]
+[08:35:27] [Server thread/INFO]: zachleong fell from a high place
+[08:35:45] [Server thread/INFO]: zachleong was shot by Skeleton
+[08:39:46] [Server thread/INFO]: zachleong was slain by Zombie
+[08:40:08] [Server thread/INFO]: zachleong was shot by Skeleton
+[08:40:42] [Server thread/INFO]: zachleong was blown up by Creeper
+[08:42:08] [Server thread/INFO]: zachleong was blown up by Creeper
+[08:44:03] [Server thread/INFO]: zachleong was shot by Skeleton
+[08:45:49] [Server thread/INFO]: zachleong was slain by Enderman
+[08:50:43] [Server thread/INFO]: zachleong fell from a high place
+[08:51:03] [Server thread/INFO]: zachleong fell from a high place
+[08:53:00] [Server thread/INFO]: zachleong tried to swim in lava
+[08:53:57] [Server thread/INFO]: zachleong lost connection: Disconnected
+[08:53:57] [Server thread/INFO]: zachleong left the game
+[09:32:05] [User Authenticator #5/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[09:32:05] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:53413] logged in with entity id 7102 at (202.30000001192093, 57.5625, -15.882921067726185)
+[09:32:05] [Server thread/INFO]: EarthOspreyHD joined the game
+[09:32:11] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[09:32:11] [Server thread/INFO]: EarthOspreyHD left the game
