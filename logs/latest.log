@@ -1,18 +1,379 @@
-[00:43:23] [User Authenticator #13/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
-[00:43:23] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:50015] logged in with entity id 125542 at (203.26353003426533, 57.5625, -16.277697994699583)
-[00:43:23] [Server thread/INFO]: EarthOspreyHD joined the game
-[00:43:28] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
-[00:43:28] [Server thread/INFO]: EarthOspreyHD left the game
-[00:44:02] [Server thread/INFO]: Stopping the server
-[00:44:02] [Server thread/INFO]: Stopping server
-[00:44:02] [Server thread/INFO]: Saving players
-[00:44:02] [Server thread/INFO]: Saving worlds
-[00:44:02] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[00:44:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:44:02] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[00:44:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:44:02] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[00:44:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:44:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:44:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:44:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:04] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:45:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:45:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:45:04] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:45:04] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:45:04] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[00:45:04] [Server thread/INFO]: Loading properties
+[00:45:04] [Server thread/INFO]: Default game type: SURVIVAL
+[00:45:04] [Server thread/INFO]: Generating keypair
+[00:45:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:45:05] [Server thread/INFO]: Using epoll channel type
+[00:45:05] [Server thread/INFO]: Preparing level "world"
+[00:45:05] [Server thread/INFO]: Reloading ResourceManager: Default
+[00:45:29] [Server thread/INFO]: Loaded 6 recipes
+[00:45:38] [Server thread/INFO]: Loaded 811 advancements
+[00:45:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:45:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:45:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:45:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:45:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:45:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:45:41] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[00:45:41] [Server thread/INFO]: Time elapsed: 3219 ms
+[00:45:41] [Server thread/INFO]: Done (36.347s)! For help, type "help"
+[00:48:23] [User Authenticator #1/INFO]: UUID of player BustaBlockJC is 8f828862-0c6c-4395-bb1e-284df8497dc5
+[00:48:23] [Server thread/INFO]: BustaBlockJC[/101.164.235.109:55859] logged in with entity id 223 at (158.77942755608404, 64.0, -84.24968552798025)
+[00:48:23] [Server thread/INFO]: BustaBlockJC joined the game
+[00:52:46] [Server thread/INFO]: BustaBlockJC has made the advancement [The Parrots and the Bats]
+[00:54:15] [User Authenticator #2/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[00:54:15] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:50360] logged in with entity id 1477 at (203.26353003426533, 57.5625, -16.277697994699583)
+[00:54:15] [Server thread/INFO]: EarthOspreyHD joined the game
+[00:54:31] [Server thread/INFO]: <BustaBlockJC> geek
+[01:00:44] [Server thread/WARN]: EarthOspreyHD moved too quickly! -8.870300491190903,-2.0784000015258783,4.483961860531615
+[01:00:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2581ms or 51 ticks behind
+[01:04:18] [Server thread/INFO]: EarthOspreyHD has made the advancement [A Terrible Fortress]
+[01:05:18] [Server thread/INFO]: EarthOspreyHD has made the advancement [Into Fire]
+[01:05:46] [Server thread/WARN]: EarthOspreyHD moved too quickly! 10.204386238922382,0.0,0.271307842716098
+[01:05:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
+[01:09:08] [Server thread/INFO]: EarthOspreyHD withered away
+[01:10:48] [Server thread/WARN]: BustaBlockJC moved too quickly! 0.022033757707731638,0.07840000152587834,-10.292131389296628
+[01:10:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2365ms or 47 ticks behind
+[01:15:07] [Server thread/INFO]: <BustaBlockJC> pats house is kinda cool
+[01:15:12] [Server thread/INFO]: <EarthOspreyHD> yeah
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -8.77364903125887,0.0,-5.584176266961379
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -9.11109707092227,0.0,-5.798952277229887
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -9.44854511058567,0.0,-6.013728287498395
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -9.78599315024907,0.0,-6.2285042977669605
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -10.123441189912413,0.0,-6.443280308035526
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -10.460889229575812,0.0,-6.658056318304091
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -10.798337269239155,0.0,-6.872832328572656
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -11.135785308902499,0.0,-7.087608338841278
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -11.473233348565842,0.0,-7.3023843491099
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -11.810681388229185,0.0,-7.517160359378522
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -12.148129427892528,0.0,-7.731936369647144
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -12.48557746755587,0.0,-7.946712379915766
+[01:15:52] [Server thread/WARN]: EarthOspreyHD moved too quickly! 9.013062923842448,3.1416851727245287,3.6286920659500552
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -12.823025507219214,0.0,-8.161488390184388
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -13.160473546882557,0.0,-8.37626440045301
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -13.498291194948152,0.0,-8.590448357785078
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -13.837115414208384,0.0,-8.802956529798394
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -14.17773950170745,0.0,-9.012290759447467
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -14.521003492315131,0.0,-9.216595635675446
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -14.867686082060473,0.0,-9.413710652010707
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -15.218400880854531,0.0,-9.601227183371691
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -15.573383070694732,0.0,-9.77723446430997
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -15.932599064611694,0.0,-9.940263285173842
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -16.2958303395355,0.0,-10.089235319821455
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -16.662738354478236,0.0,-10.22340985609884
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -17.032913738175935,0.0,-10.342338301020163
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -17.405912339975615,0.0,-10.445808297307792
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -17.781281920058646,0.0,-10.533810383589582
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -18.158580683288918,0.0,-10.606498962984233
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -18.537389921460615,0.0,-10.664160210125942
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -18.917320943324924,0.0,-10.707179065220771
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -19.29802159846072,0.0,-10.736024381430639
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -19.67917650866862,0.0,-10.751220591631068
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -20.060507972855206,0.0,-10.753333509627623
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -20.441775470126302,0.0,-10.742957643452144
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -20.822772820934645,0.0,-10.720701278350418
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -21.20332701792104,0.0,-10.687180514159536
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -21.583295240245334,0.0,-10.643010397174692
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -21.96256144377851,0.0,-10.588797110192672
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -22.341287945669663,0.0,-10.52578483071909
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -22.719848554619674,0.0,-10.455724639700975
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -23.098743946499795,0.0,-10.380776825457417
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -23.47850684988147,0.0,-10.303429845281528
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -23.859470838098233,0.0,-10.22574708582016
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -24.241820680395975,0.0,-10.149417706417182
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -24.62563235687891,0.0,-10.075805810021109
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -25.010904303588248,0.0,-10.005997143119885
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -25.397580883910408,0.0,-9.940835185705566
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -25.785570856711345,0.0,-9.88095860038186
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -26.174761118007794,0.0,-9.826831909397981
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -26.565026967407633,0.0,-9.778773636229175
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -26.95623953741439,0.0,-9.736981983321357
+[01:15:52] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -27.348271127520903,0.0,-9.701554331497618
+[01:15:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3788ms or 75 ticks behind
+[01:19:17] [Server thread/INFO]: BustaBlockJC lost connection: Disconnected
+[01:19:17] [Server thread/INFO]: BustaBlockJC left the game
+[01:25:27] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[01:25:27] [Server thread/INFO]: EarthOspreyHD left the game
+[02:17:32] [User Authenticator #3/INFO]: UUID of player zachleong is cfb58f2b-d237-4ffd-a411-902ec4b2b588
+[02:17:32] [Server thread/INFO]: zachleong[/101.164.213.99:3769] logged in with entity id 15248 at (204.01505045550542, 57.0, -17.166592789189963)
+[02:17:32] [Server thread/INFO]: zachleong joined the game
+[02:22:36] [Server thread/INFO]: [Server] I found the nether castle btw
+[02:22:50] [Server thread/INFO]: <zachleong> nice
+[02:22:58] [Server thread/INFO]: <zachleong> i blew up the farm btw
+[02:23:37] [User Authenticator #4/INFO]: UUID of player kebab_yes_please is 0cff7b2e-8c02-4f44-b914-f9ca5cde3c13
+[02:23:37] [Server thread/INFO]: kebab_yes_please[/101.164.231.195:49316] logged in with entity id 16391 at (204.29999997466803, 35.0000002, -23.700000025331974)
+[02:23:37] [Server thread/INFO]: kebab_yes_please joined the game
+[02:23:48] [User Authenticator #5/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[02:23:48] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:51050] logged in with entity id 16500 at (202.83367958989095, 57.5625, -16.747222694916537)
+[02:23:48] [Server thread/INFO]: EarthOspreyHD joined the game
+[02:24:28] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[02:25:00] [Server thread/INFO]: zachleong was slain by Zombie
+[02:25:05] [Server thread/INFO]: [EarthOspreyHD: The difficulty has been set to Hard]
+[02:30:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2319ms or 46 ticks behind
+[02:35:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2222ms or 44 ticks behind
+[02:45:58] [Server thread/WARN]: EarthOspreyHD moved too quickly! 10.084748249207337,-0.5009966402674735,0.9241675435365551
+[02:48:20] [Server thread/INFO]: EarthOspreyHD was slain by Husk
+[02:50:59] [Server thread/WARN]: EarthOspreyHD moved too quickly! 9.982508992041403,0.0,-0.9919956140363411
+[02:50:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2469ms or 49 ticks behind
+[02:51:08] [Server thread/INFO]: zachleong fell from a high place
+[02:51:09] [Server thread/WARN]: zachleong moved too quickly! 76.19999998807907,75.0000002,405.19999998807907
+[02:51:09] [Server thread/WARN]: zachleong moved too quickly! 76.19999998807907,75.0000002,405.19999998807907
+[02:51:33] [Server thread/INFO]: zachleong was pricked to death
+[02:51:56] [Server thread/INFO]: zachleong fell from a high place
+[02:51:57] [Server thread/WARN]: zachleong moved too quickly! 3.199999988079071,48.957612839390265,-17.80000001192093
+[02:52:06] [Server thread/INFO]: zachleong fell from a high place
+[02:52:26] [Server thread/INFO]: zachleong fell from a high place
+[02:53:12] [Server thread/INFO]: zachleong hit the ground too hard
+[02:53:23] [Server thread/INFO]: zachleong fell from a high place
+[02:54:06] [Server thread/INFO]: zachleong was shot by Skeleton
+[02:55:33] [Server thread/INFO]: zachleong was shot by Skeleton
+[02:55:59] [Server thread/INFO]: zachleong was slain by Zombie
+[02:56:01] [Server thread/WARN]: EarthOspreyHD moved too quickly! -9.374640262399112,2.752148900367459,-3.1815259519171377
+[02:56:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[02:57:49] [Server thread/INFO]: zachleong fell from a high place
+[02:57:59] [Server thread/INFO]: zachleong lost connection: Disconnected
+[02:57:59] [Server thread/INFO]: zachleong left the game
+[03:01:03] [Server thread/WARN]: EarthOspreyHD moved too quickly! 4.0529468877834915,-1.8622826671866903,-8.981234696735612
+[03:10:23] [Server thread/INFO]: kebab_yes_please was blown up by Creeper
+[03:12:13] [User Authenticator #6/INFO]: UUID of player BustaBlockJC is 8f828862-0c6c-4395-bb1e-284df8497dc5
+[03:12:13] [Server thread/INFO]: BustaBlockJC[/101.164.235.109:56393] logged in with entity id 34246 at (-682.5285273532505, 62.07326480421728, 247.54299475217812)
+[03:12:13] [Server thread/INFO]: BustaBlockJC joined the game
+[03:14:36] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[03:14:36] [Server thread/INFO]: EarthOspreyHD left the game
+[03:22:34] [Server thread/INFO]: kebab_yes_please has made the advancement [A Seedy Place]
+[03:32:02] [Server thread/WARN]: Fetching packet for removed entity ats['Sand'/40759, l='world', x=162.04, y=62.17, z=-32.82]
+[03:36:03] [Server thread/WARN]: kebab_yes_please moved too quickly! 10.031311666800349,0.0,-0.13659159368481255
+[03:36:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 8.157217225778595,0.0,6.291502517305645
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 8.460497755438269,0.0,6.551064330496189
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 8.763446145037733,0.0,6.81112921795426
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 9.066087995960288,0.0,7.071655500013435
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 9.368448886372903,0.0,7.332602785325548
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 9.670551832899832,0.0,7.5939347254034715
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 9.972417552365187,0.0,7.855618602884391
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 10.27406468991012,0.0,8.117624970279905
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 10.575510022435878,0.0,8.379927326713812
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 10.87677118793863,0.0,8.642498945474017
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 11.177864062477056,0.0,8.905315770657637
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 11.478802932640974,0.0,9.16835615567797
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 11.779600658223444,0.0,9.431600616744817
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 12.080268811175415,0.0,9.695031616584856
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 12.380817808115012,0.0,9.958633375377758
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 12.681257020273051,0.0,10.22239168756036
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 12.981127558990352,0.0,10.486812218639614
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 13.279573230422898,0.0,10.752791540537117
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 13.575378692134791,0.0,11.021494749035213
+[03:41:06] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! 13.866997114585615,0.0,11.294231008778638
+[03:41:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2232ms or 44 ticks behind
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -9.896469915933267,0.0,-3.1084362124678933
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -10.258019276003552,0.0,-3.2745521623518243
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -10.617558111623566,0.0,-3.4448929857981625
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -10.975142829714514,0.0,-3.6192713915529
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -11.33083891140086,0.0,-3.79749184266484
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -11.684718421341586,0.0,-3.9793549089055773
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -12.036855590557934,0.0,-4.164664335542454
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -12.387326830765915,0.0,-4.353226874800839
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -12.736210747274754,0.0,-4.544852126729268
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -13.083585993651923,0.0,-4.739355573650471
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -13.429531412183678,0.0,-4.936558088791571
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -13.774124010797777,0.0,-5.136288658685203
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -14.117441366771345,0.0,-5.338380453770583
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -14.45955737884492,0.0,-5.542676823090176
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -14.80054482927244,0.0,-5.7490271397347215
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -15.14085966975631,0.0,-5.956712691859195
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -15.48124341277412,0.0,-6.164538127076867
+[03:46:08] [Server thread/WARN]: Boat (vehicle of BustaBlockJC) moved too quickly! -15.822266800408443,0.0,-6.371516770739561
+[03:46:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
+[03:46:44] [Server thread/INFO]: <kebab_yes_please> penis lol
+[03:46:59] [Server thread/INFO]: <BustaBlockJC> u'
+[03:48:54] [Server thread/INFO]: kebab_yes_please was shot by Skeleton
+[03:51:10] [Server thread/WARN]: kebab_yes_please moved too quickly! 8.796960719399436,1.4199999868869781,-5.1782519157158795
+[03:51:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2280ms or 45 ticks behind
+[03:57:06] [Server thread/INFO]: <BustaBlockJC> can we sleep soon
+[04:00:52] [Server thread/WARN]: Fetching packet for removed entity auy['Skeleton'/56332, l='world', x=116.50, y=63.85, z=-194.50]
+[04:09:37] [Server thread/INFO]: kebab_yes_please has made the advancement [Fishy Business]
+[04:17:48] [Server thread/INFO]: <kebab_yes_please> kebab yes please
+[04:18:15] [Server thread/INFO]: <BustaBlockJC> zzz
+[04:18:20] [Server thread/INFO]: <kebab_yes_please> yawn
+[04:20:11] [User Authenticator #7/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[04:20:11] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:51898] logged in with entity id 60652 at (199.04084849163092, 59.0, -9.300000011920929)
+[04:20:11] [Server thread/INFO]: EarthOspreyHD joined the game
+[04:26:12] [Server thread/WARN]: EarthOspreyHD moved too quickly! -3.12113555063911,-7.500463294664762,-6.088190170449828
+[04:26:12] [Server thread/WARN]: kebab_yes_please moved too quickly! 0.00818178366068878,-7.078400001525878,7.3169965869806415
+[04:26:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2211ms or 44 ticks behind
+[04:28:29] [Server thread/INFO]: kebab_yes_please has made the advancement [We Need to Go Deeper]
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 8.242762052223839,0.0,-6.21639491796202
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 8.568250784893621,0.0,-6.447934408743947
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 8.893953540256234,0.0,-6.679267539450791
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 9.219851117684016,0.0,-6.910411803812565
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 9.545926232886927,0.0,-7.1413829480486015
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 9.872163330004582,0.0,-7.372195141893258
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.198546210841641,0.0,-7.60286428038944
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.525062498669286,0.0,-7.833401526793011
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.851701050706424,0.0,-8.063816928034043
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 11.17844964052938,0.0,-8.294122668631644
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 11.505297264356841,0.0,-8.524329714652822
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 11.832631291193934,0.0,-8.753869422188586
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 12.161126208003907,0.0,-8.981696064013306
+[04:31:15] [Server thread/WARN]: kebab_yes_please moved too quickly! -1.197301748684339,0.0,10.184909100327047
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 12.491633547565016,0.0,-9.2063524379476
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 12.8247550948563,0.0,-9.426654250926163
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 13.160897585934435,0.0,-9.6416562436292
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 13.500314616726541,0.0,-9.850624662394694
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 13.843141298754404,0.0,-10.053009706736304
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 14.189421414794992,0.0,-10.248422202668337
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 14.539130912751943,0.0,-10.436607429613957
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 14.892195704827259,0.0,-10.617423941358481
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 15.248506073725935,0.0,-10.790823611769383
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 15.607926278027094,0.0,-10.956840414995042
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 15.970304258725605,0.0,-11.115572464487343
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 16.3354783895403,0.0,-11.267169159905507
+[04:31:15] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 16.703282818307912,0.0,-11.411819339001738
+[04:31:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2481ms or 49 ticks behind
+[04:34:50] [Server thread/INFO]: kebab_yes_please has made the advancement [Ice Bucket Challenge]
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -7.006345956537402,0.0,7.685770012340868
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -7.275820801002794,0.0,7.981376551293124
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -7.545295645467817,0.0,8.276983090245778
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -7.814770489932513,0.0,8.572589629198717
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -8.084245334396911,0.0,8.86819616815194
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -8.353720178861039,0.0,9.163802707105447
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -8.623195023324925,0.0,9.459409246059181
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -8.892669867788598,0.0,9.755015785013086
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.162144712252072,0.0,10.050622323967218
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.431619556715376,0.0,10.34622886292152
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.701094401178523,0.0,10.641835401875937
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.970569245641528,0.0,10.937441940830524
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.240044090104405,0.0,11.233048479785225
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.509518934567154,0.0,11.52865501874004
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.778993779029804,0.0,11.824261557694967
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.048468623492369,0.0,12.119868096649952
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.317943467954848,0.0,12.415474635605051
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.587418312417242,0.0,12.711081174560206
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.856893156879579,0.0,13.006687713515419
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -12.126368001341845,0.0,13.302294252470688
+[04:36:17] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -12.395842845804054,0.0,13.597900791426014
+[04:36:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2264ms or 45 ticks behind
+[04:38:08] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.161275836786103,0.0,-2.2131619970044554
+[04:40:27] [Server thread/INFO]: BustaBlockJC lost connection: Disconnected
+[04:40:27] [Server thread/INFO]: BustaBlockJC left the game
+[04:41:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.173674086592428,0.0,1.618371941250075
+[04:41:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.568282042629448,0.0,1.6773773737305646
+[04:41:09] [Server thread/INFO]: kebab_yes_please has made the advancement [Not Today, Thank You]
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 9.886291253779575,0.0,-3.2281860132996485
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.266533221131567,0.0,-3.352347028371071
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 10.6467751883971,0.0,-3.476508043761214
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 11.027017155584872,0.0,-3.6006690594382462
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 11.40725912270267,0.0,-3.724830075373461
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 11.787501089757484,0.0,-3.848991091540995
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 12.167743056755626,0.0,-3.973152107917656
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 12.547985023702722,0.0,-4.097313124482525
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 12.92822699060389,0.0,-4.221474141216788
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 13.308468957463731,0.0,-4.345635158103448
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 13.688710924286397,0.0,-4.469796175127328
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 14.068952891075583,0.0,-4.593957192274672
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 14.449194857834641,0.0,-4.718118209533145
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 14.829436824566585,0.0,-4.842279226891662
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 15.209678791274087,0.0,-4.96644024434022
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 15.589920757959646,0.0,-5.090601261869779
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 15.970162724625425,0.0,-5.214762279472268
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 16.35040469127341,0.0,-5.338923297140354
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 16.730646657905424,0.0,-5.463084314867501
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 17.110888624523,0.0,-5.587245332647797
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 17.491130591127614,0.0,-5.711406350475954
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 17.871372557720576,0.0,-5.835567368347142
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 18.251614524303022,0.0,-5.9597283862570976
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 18.631856490876032,0.0,-6.083889404201898
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 19.012098457440516,0.0,-6.208050422178076
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 19.392340423997325,0.0,-6.332211440182505
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 19.772582390547257,0.0,-6.4563724582124
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 20.152824357090992,0.0,-6.5805334762651455
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 20.533066323629157,0.0,-6.704694494338469
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 20.913308290162263,0.0,-6.82885551243038
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 21.293550256690878,0.0,-6.953016530538946
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 21.6737922232154,0.0,-7.077177548662519
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 22.054034189736285,0.0,-7.20133856679962
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 22.434276156253873,0.0,-7.325499584948886
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 22.814518122768447,0.0,-7.449660603109066
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 23.19476008928035,0.0,-7.57382162127908
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 23.575002055789867,0.0,-7.697982639457962
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 23.955244022297222,0.0,-7.822143657644858
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 24.335485988802645,0.0,-7.946304675838917
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 24.715727955306306,0.0,-8.070465694039456
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 25.095969921808376,0.0,-8.194626712245793
+[04:41:20] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! 25.476211888309024,0.0,-8.318787730457359
+[04:41:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3301ms or 66 ticks behind
+[04:46:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3257ms or 65 ticks behind
+[04:47:51] [Server thread/INFO]: kebab_yes_please has made the advancement [Hot Stuff]
+[04:53:16] [Server thread/INFO]: EarthOspreyHD was slain by Enderman
+[05:06:11] [Server thread/WARN]: Fetching packet for removed entity ats['Sand'/85083, l='world', x=214.13, y=62.15, z=85.97]
+[05:07:56] [Server thread/INFO]: kebab_yes_please was blown up by Creeper
+[05:12:13] [User Authenticator #8/INFO]: UUID of player Kyleyden is 800e05d7-1eb0-4bf2-a59c-25039a5be58d
+[05:12:13] [Server thread/INFO]: Kyleyden[/218.215.22.231:54583] logged in with entity id 87100 at (122.26664397591286, 67.0, -384.2429216825322)
+[05:12:13] [Server thread/INFO]: Kyleyden joined the game
+[05:20:39] [Server thread/INFO]: Kyleyden has made the advancement [Isn't It Iron Pick]
+[05:22:50] [Server thread/INFO]: Kyleyden drowned
+[05:22:58] [Server thread/INFO]: <EarthOspreyHD> nice
+[05:23:03] [Server thread/INFO]: <Kyleyden> hush
+[05:25:54] [Server thread/INFO]: <Kyleyden> geez
+[05:25:56] [Server thread/INFO]: <EarthOspreyHD> nice house
+[05:25:57] [Server thread/INFO]: <kebab_yes_please> ?
+[05:25:57] [Server thread/INFO]: <Kyleyden> u scared me
+[05:26:03] [Server thread/INFO]: <Kyleyden> u like my chimney
+[05:26:08] [Server thread/INFO]: <EarthOspreyHD> yeah
+[05:26:18] [Server thread/INFO]: <EarthOspreyHD> is it a campfire?
+[05:26:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[05:26:33] [Server thread/INFO]: <Kyleyden> yea i used the bale to make the smoke hugher
+[05:26:50] [Server thread/INFO]: <EarthOspreyHD> i might have to steal that idea
+[05:26:55] [Server thread/INFO]: <Kyleyden> all g
+[05:26:59] [Server thread/INFO]: <Kyleyden> look nice from here
+[05:27:12] [Server thread/INFO]: <EarthOspreyHD> nice and cozy
+[05:27:17] [Server thread/INFO]: <Kyleyden> yeee its a log cabin
+[05:27:56] [Server thread/INFO]: <Kyleyden> im gonna make a bridge
+[05:27:57] [Server thread/INFO]: <Kyleyden> there
+[05:28:01] [Server thread/INFO]: <EarthOspreyHD> yeah
+[05:28:03] [Server thread/INFO]: <Kyleyden> to connect the mountain
+[05:28:06] [Server thread/INFO]: <EarthOspreyHD> thatll look col
+[05:28:43] [Server thread/INFO]: <Kyleyden> dis my garden
+[05:31:27] [Server thread/WARN]: kebab_yes_please moved too quickly! -0.16650751312133139,-0.5800000131130219,10.242300297788603
+[05:31:38] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[05:31:38] [Server thread/INFO]: EarthOspreyHD left the game
+[05:58:16] [Server thread/INFO]: kebab_yes_please burned to death
+[06:10:11] [Server thread/INFO]: Kyleyden was shot by Skeleton
+[06:10:47] [User Authenticator #9/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[06:10:47] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:52910] logged in with entity id 111017 at (202.27121232997783, 58.5625, -15.401962574058317)
+[06:10:47] [Server thread/INFO]: EarthOspreyHD joined the game
+[06:11:42] [Server thread/INFO]: Kyleyden was shot by Skeleton
+[06:12:31] [Server thread/INFO]: Kyleyden was shot by Skeleton
+[06:13:09] [Server thread/INFO]: <EarthOspreyHD> gamer
+[06:13:11] [Server thread/INFO]: <kebab_yes_please> hello gamer
+[06:13:15] [Server thread/INFO]: <kebab_yes_please> nice skin bro
+[06:15:37] [Server thread/INFO]: <kebab_yes_please> im gonna build an iron golem then trap him underwater and put him on display
+[06:16:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[06:22:17] [Server thread/INFO]: kebab_yes_please lost connection: Disconnected
+[06:22:17] [Server thread/INFO]: kebab_yes_please left the game
+[06:26:24] [Server thread/INFO]: Kyleyden has made the advancement [Best Friends Forever]
+[06:26:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2176ms or 43 ticks behind
+[06:31:06] [Server thread/INFO]: Kyleyden was blown up by Creeper
+[06:31:15] [Server thread/INFO]: <Kyleyden> WELP
+[06:32:19] [Server thread/INFO]: Kyleyden lost connection: Disconnected
+[06:32:19] [Server thread/INFO]: Kyleyden left the game
+[06:46:03] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[06:46:03] [Server thread/INFO]: EarthOspreyHD left the game
+[06:48:18] [Server thread/INFO]: Stopping the server
+[06:48:18] [Server thread/INFO]: Stopping server
+[06:48:18] [Server thread/INFO]: Saving players
+[06:48:18] [Server thread/INFO]: Saving worlds
+[06:48:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:48:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:48:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[06:48:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:48:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[06:48:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:48:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:48:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:48:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
