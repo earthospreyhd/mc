@@ -583,8 +583,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:pillager": "2019-07-08 22:07:41 +1000",
       "minecraft:blaze": "2019-07-09 11:05:18 +1000",
+      "minecraft:pillager": "2019-07-08 22:07:41 +1000",
       "minecraft:skeleton": "2019-07-08 16:01:18 +1000",
       "minecraft:ghast": "2019-07-11 11:40:33 +1000",
       "minecraft:magma_cube": "2019-07-08 22:58:33 +1000",
@@ -1203,8 +1203,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2019-08-02 12:25:12 +1000",
-      "minecraft:forest": "2019-07-07 21:20:22 +1000",
       "minecraft:mountains": "2019-07-08 21:27:18 +1000",
+      "minecraft:forest": "2019-07-07 21:20:22 +1000",
       "minecraft:taiga": "2019-07-08 21:28:12 +1000",
       "minecraft:desert_hills": "2019-07-08 16:04:33 +1000",
       "minecraft:deep_cold_ocean": "2019-08-02 12:27:22 +1000",
@@ -1216,8 +1216,8 @@
       "minecraft:deep_lukewarm_ocean": "2019-07-09 14:42:35 +1000",
       "minecraft:beach": "2019-07-08 15:51:02 +1000",
       "minecraft:dark_forest": "2019-08-01 15:56:27 +1000",
-      "minecraft:river": "2019-07-08 15:47:06 +1000",
       "minecraft:lukewarm_ocean": "2019-07-08 22:39:20 +1000",
+      "minecraft:river": "2019-07-08 15:47:06 +1000",
       "minecraft:wooded_mountains": "2019-07-08 21:37:05 +1000",
       "minecraft:wooded_hills": "2019-07-08 15:10:56 +1000",
       "minecraft:stone_shore": "2019-07-12 19:05:50 +1000",
@@ -2861,13 +2861,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-07-15 16:58:04 +1000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-07-15 16:58:04 +1000"
     },
@@ -2921,5 +2921,5 @@
     },
     "done": true
   },
-  "DataVersion": 1968
+  "DataVersion": 1976
 }

@@ -1,60 +1,30 @@
-[20:38:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:38:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:38:52] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:38:52] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:38:52] [Server thread/INFO]: Starting minecraft server version 1.14.3
-[20:38:52] [Server thread/INFO]: Loading properties
-[20:38:52] [Server thread/INFO]: Default game type: SURVIVAL
-[20:38:52] [Server thread/INFO]: Generating keypair
-[20:38:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:38:52] [Server thread/INFO]: Using epoll channel type
-[20:38:53] [Server thread/INFO]: Preparing level "world"
-[20:38:53] [Server thread/INFO]: Reloading ResourceManager: Default
-[20:38:54] [Server thread/INFO]: Loaded 6 recipes
-[20:38:55] [Server thread/INFO]: Loaded 811 advancements
-[20:38:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:39:00] [Server thread/INFO]: Preparing spawn area: 32%
-[20:39:00] [Server thread/INFO]: Time elapsed: 4716 ms
-[20:39:00] [Server thread/INFO]: Done (7.237s)! For help, type "help"
-[20:39:05] [User Authenticator #1/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
-[20:39:05] [Server thread/INFO]: EarthOspreyHD[/127.0.0.1:54051] logged in with entity id 485 at (200.32209902142145, 58.0, -14.203479528275746)
-[20:39:05] [Server thread/INFO]: EarthOspreyHD joined the game
-[20:39:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -8.71321386605473,0.0,-5.677581270471478
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.048232087504857,0.0,-5.896125091299041
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.38324606194351,0.0,-6.114675720397656
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -9.718256214071971,0.0,-6.3332324769399975
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.05326292612142,0.0,-6.551794748181578
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.388266542099814,0.0,-6.770361982652332
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -10.723267371614384,0.0,-6.988933684029234
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.058265693311455,0.0,-7.207509405621579
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.393261757972823,0.0,-7.4260887454076965
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -11.728255791302331,0.0,-7.6446713415681415
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -12.063247996433006,0.0,-7.863256868465385
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -12.398238556184765,0.0,-8.081845033025672
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -12.733227635095659,0.0,-8.300435571482694
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -13.068215381249843,0.0,-8.51902824644668
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -13.40320192792285,0.0,-8.737622844266866
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -13.738187395062937,0.0,-8.956219172657597
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -14.073171890623485,0.0,-9.174817058561814
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -14.408155511762288,0.0,-9.393416346228094
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -14.743138345921693,0.0,-9.612016895480167
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -15.078120471799593,0.0,-9.830618580159467
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -15.41310196022414,0.0,-10.049221286723252
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -15.748082874940678,0.0,-10.26782491298303
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -16.083063273320136,0.0,-10.486429366969162
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -16.418043206996117,0.0,-10.705034565909045
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -16.753022722439027,0.0,-10.92364043530722
-[20:44:04] [Server thread/WARN]: Boat (vehicle of EarthOspreyHD) moved too quickly! -17.088001861472094,0.0,-11.142246908117897
-[20:44:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
-[20:48:28] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
-[20:48:28] [Server thread/INFO]: EarthOspreyHD left the game
+[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:35:45] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[23:35:45] [Server thread/INFO]: Loading properties
+[23:35:45] [Server thread/INFO]: Default game type: SURVIVAL
+[23:35:45] [Server thread/INFO]: Generating keypair
+[23:35:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:35:45] [Server thread/INFO]: Using epoll channel type
+[23:35:46] [Server thread/INFO]: Preparing level "world"
+[23:35:46] [Server thread/INFO]: Reloading ResourceManager: Default
+[23:35:47] [Server thread/INFO]: Loaded 6 recipes
+[23:35:47] [Server thread/INFO]: Loaded 811 advancements
+[23:35:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
+[23:35:51] [Server thread/INFO]: Preparing spawn area: 64%
+[23:35:51] [Server thread/INFO]: Time elapsed: 3111 ms
+[23:35:51] [Server thread/INFO]: Done (5.750s)! For help, type "help"
+[23:36:03] [User Authenticator #1/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[23:36:04] [Server thread/INFO]: EarthOspreyHD[/127.0.0.1:53326] logged in with entity id 501 at (203.10602802223215, 53.0, -12.538438201705745)
+[23:36:04] [Server thread/INFO]: EarthOspreyHD joined the game
+[23:36:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2156ms or 43 ticks behind
+[23:36:10] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[23:36:10] [Server thread/INFO]: EarthOspreyHD left the game
