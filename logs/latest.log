@@ -1,30 +1,51 @@
-[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23:35:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:35:45] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[23:35:45] [Server thread/INFO]: Loading properties
-[23:35:45] [Server thread/INFO]: Default game type: SURVIVAL
-[23:35:45] [Server thread/INFO]: Generating keypair
-[23:35:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:35:45] [Server thread/INFO]: Using epoll channel type
-[23:35:46] [Server thread/INFO]: Preparing level "world"
-[23:35:46] [Server thread/INFO]: Reloading ResourceManager: Default
-[23:35:47] [Server thread/INFO]: Loaded 6 recipes
-[23:35:47] [Server thread/INFO]: Loaded 811 advancements
-[23:35:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 0%
-[23:35:51] [Server thread/INFO]: Preparing spawn area: 64%
-[23:35:51] [Server thread/INFO]: Time elapsed: 3111 ms
-[23:35:51] [Server thread/INFO]: Done (5.750s)! For help, type "help"
-[23:36:03] [User Authenticator #1/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
-[23:36:04] [Server thread/INFO]: EarthOspreyHD[/127.0.0.1:53326] logged in with entity id 501 at (203.10602802223215, 53.0, -12.538438201705745)
-[23:36:04] [Server thread/INFO]: EarthOspreyHD joined the game
-[23:36:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2156ms or 43 ticks behind
-[23:36:10] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
-[23:36:10] [Server thread/INFO]: EarthOspreyHD left the game
+[01:18:52] [User Authenticator #47/INFO]: UUID of player BustaBlockJC is 8f828862-0c6c-4395-bb1e-284df8497dc5
+[01:18:52] [Server thread/INFO]: BustaBlockJC[/101.164.235.109:61876] logged in with entity id 227231 at (6468.12186412934, 53.0, 971.4017625019806)
+[01:18:52] [Server thread/INFO]: BustaBlockJC joined the game
+[01:30:40] [Server thread/INFO]: BustaBlockJC lost connection: Disconnected
+[01:30:40] [Server thread/INFO]: BustaBlockJC left the game
+[02:09:30] [User Authenticator #48/INFO]: UUID of player BustaBlockJC is 8f828862-0c6c-4395-bb1e-284df8497dc5
+[02:09:30] [Server thread/INFO]: BustaBlockJC[/101.164.235.109:62403] logged in with entity id 228545 at (7616.32803040609, 50.0, 1288.300000011921)
+[02:09:30] [Server thread/INFO]: BustaBlockJC joined the game
+[02:18:01] [Server thread/WARN]: BustaBlockJC moved too quickly! 4.558835702335273,-27.0,2.9044357560424032
+[02:18:01] [Server thread/WARN]: BustaBlockJC moved too quickly! 4.558835702335273,-27.0,2.9044357560424032
+[02:21:09] [Server thread/WARN]: BustaBlockJC was kicked for floating too long!
+[02:21:09] [Server thread/INFO]: BustaBlockJC lost connection: Flying is not enabled on this server
+[02:21:09] [Server thread/INFO]: BustaBlockJC left the game
+[02:21:14] [User Authenticator #49/INFO]: UUID of player BustaBlockJC is 8f828862-0c6c-4395-bb1e-284df8497dc5
+[02:21:14] [Server thread/INFO]: BustaBlockJC[/101.164.235.109:62449] logged in with entity id 230136 at (8757.521789590284, 102.0, 1375.5910987684094)
+[02:21:14] [Server thread/INFO]: BustaBlockJC joined the game
+[02:25:06] [Server thread/INFO]: BustaBlockJC has made the advancement [Local Brewery]
+[02:25:30] [Server thread/INFO]: BustaBlockJC has reached the goal [Sky's the Limit]
+[02:32:23] [Server thread/WARN]: BustaBlockJC moved too quickly! -6.16323625849509,-12.0,4.245847860009462
+[02:32:23] [Server thread/WARN]: BustaBlockJC moved too quickly! -6.16323625849509,-12.0,4.245847860009462
+[02:32:41] [Server thread/WARN]: BustaBlockJC moved too quickly! 1.9586262840111885,-7.0,7.240353062630902
+[02:32:45] [Server thread/WARN]: BustaBlockJC moved too quickly! -5.945317776249794,-54.0,5.881851175582142
+[02:32:52] [Server thread/WARN]: BustaBlockJC moved too quickly! -7.744442869188788,1.0,-7.095651607769014
+[02:41:26] [Server thread/WARN]: BustaBlockJC moved too quickly! -7.731118909769066,0.0,-7.773316515089846
+[02:41:43] [Server thread/INFO]: BustaBlockJC lost connection: Disconnected
+[02:41:43] [Server thread/INFO]: BustaBlockJC left the game
+[02:44:57] [User Authenticator #50/INFO]: UUID of player BustaBlockJC is 8f828862-0c6c-4395-bb1e-284df8497dc5
+[02:44:57] [Server thread/INFO]: BustaBlockJC[/101.164.235.109:62762] logged in with entity id 232373 at (8522.799430384806, 64.17675927506424, 1223.4815445507472)
+[02:44:57] [Server thread/INFO]: BustaBlockJC joined the game
+[02:45:16] [Server thread/WARN]: BustaBlockJC moved too quickly! 7.306947828985358,0.0,-7.878130026343115
+[02:47:21] [Server thread/INFO]: BustaBlockJC was blown up by Creeper
+[03:01:16] [Server thread/INFO]: BustaBlockJC lost connection: Disconnected
+[03:01:16] [Server thread/INFO]: BustaBlockJC left the game
+[05:05:02] [User Authenticator #51/INFO]: UUID of player EarthOspreyHD is bc9d9a2c-b37d-4fb1-8a1e-9d58d8a57356
+[05:05:02] [Server thread/INFO]: EarthOspreyHD[/101.164.201.136:51549] logged in with entity id 235673 at (245.30000001192093, 73.0, -51.589162075398036)
+[05:05:02] [Server thread/INFO]: EarthOspreyHD joined the game
+[05:05:07] [Server thread/INFO]: EarthOspreyHD lost connection: Disconnected
+[05:05:07] [Server thread/INFO]: EarthOspreyHD left the game
+[05:05:39] [Server thread/INFO]: Stopping the server
+[05:05:39] [Server thread/INFO]: Stopping server
+[05:05:39] [Server thread/INFO]: Saving players
+[05:05:39] [Server thread/INFO]: Saving worlds
+[05:05:39] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[05:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:05:39] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[05:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:05:39] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[05:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved

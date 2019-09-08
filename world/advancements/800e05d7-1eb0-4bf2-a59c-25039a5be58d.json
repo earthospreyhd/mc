@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2019-09-06 10:51:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2019-07-08 12:59:44 +0000"
@@ -263,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2019-09-02 12:01:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2019-07-08 12:59:44 +0000"
@@ -272,6 +284,12 @@
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2019-07-08 12:46:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2019-09-03 03:38:38 +0000"
     },
     "done": true
   },
@@ -320,6 +338,12 @@
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2019-07-08 12:46:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2019-09-03 04:36:19 +0000"
     },
     "done": true
   },
@@ -419,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2019-09-03 03:51:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-07-08 14:00:25 +0000"
@@ -458,6 +488,12 @@
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_log": "2019-07-08 10:40:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2019-09-03 04:02:30 +0000"
     },
     "done": true
   },
@@ -559,8 +595,10 @@
       "minecraft:creeper": "2019-07-08 12:17:43 +0000",
       "minecraft:phantom": "2019-07-11 04:29:42 +0000",
       "minecraft:husk": "2019-07-12 09:13:33 +0000",
+      "minecraft:silverfish": "2019-09-02 11:24:27 +0000",
       "minecraft:zombie": "2019-07-08 10:18:16 +0000",
-      "minecraft:drowned": "2019-07-11 04:07:47 +0000"
+      "minecraft:drowned": "2019-07-11 04:07:47 +0000",
+      "minecraft:zombie_villager": "2019-09-02 11:46:53 +0000"
     },
     "done": false
   },
@@ -696,6 +734,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2019-09-06 10:34:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2019-07-08 14:00:25 +0000"
@@ -753,6 +797,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2019-07-08 12:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2019-09-06 10:36:41 +0000"
     },
     "done": true
   },
@@ -825,6 +875,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2019-07-10 11:42:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2019-09-03 04:36:19 +0000"
     },
     "done": true
   },
@@ -909,6 +965,12 @@
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2019-07-08 11:37:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_black_flower": "2019-09-06 11:29:56 +0000"
     },
     "done": true
   },
@@ -1214,6 +1276,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2019-09-03 04:39:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_at_least_9_diamond": "2019-07-11 11:50:00 +0000"
@@ -1223,6 +1291,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-07-08 14:00:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2019-09-03 04:38:25 +0000"
     },
     "done": true
   },
@@ -1253,6 +1327,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_orange_dye": "2019-07-11 03:02:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2019-09-03 03:51:32 +0000"
     },
     "done": true
   },
@@ -1400,6 +1480,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2019-09-03 03:51:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-07-08 12:46:46 +0000"
@@ -1409,6 +1495,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2019-07-08 14:02:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2019-09-03 04:00:39 +0000"
     },
     "done": true
   },
@@ -1472,6 +1564,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2019-09-03 03:51:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2019-07-08 12:46:20 +0000"
@@ -1493,6 +1591,12 @@
   "minecraft:recipes/decorations/pink_carpet": {
     "criteria": {
       "has_pink_wool": "2019-07-09 11:34:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2019-09-02 10:59:43 +0000"
     },
     "done": true
   },
@@ -1592,6 +1696,7 @@
       "mutton": "2019-07-09 06:29:32 +0000",
       "bread": "2019-07-08 12:43:56 +0000",
       "suspicious_stew": "2019-07-12 11:50:01 +0000",
+      "rotten_flesh": "2019-09-07 11:06:43 +0000",
       "cooked_chicken": "2019-07-08 12:30:24 +0000",
       "mushroom_stew": "2019-07-10 11:32:11 +0000",
       "cod": "2019-07-10 12:14:38 +0000",
@@ -1997,6 +2102,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2019-09-02 12:01:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-07-08 14:00:25 +0000"
@@ -2006,6 +2117,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2019-07-10 12:33:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2019-09-03 04:00:39 +0000"
     },
     "done": true
   },
@@ -2075,6 +2192,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2019-09-03 03:38:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
       "has_at_least_9_lapis": "2019-07-09 10:25:34 +0000"
@@ -2114,6 +2237,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2019-07-08 10:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2019-09-02 11:50:41 +0000"
     },
     "done": true
   },
@@ -2243,6 +2372,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2019-09-03 04:38:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2019-07-08 14:02:13 +0000"
@@ -2270,6 +2405,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2019-07-08 14:00:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2019-09-03 04:01:21 +0000"
     },
     "done": true
   },
@@ -2447,6 +2588,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2019-09-03 03:52:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2019-07-08 10:16:27 +0000"
@@ -2486,6 +2633,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2019-07-08 12:59:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2019-09-02 12:01:09 +0000"
     },
     "done": true
   },
@@ -2579,6 +2732,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2019-09-06 10:36:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2019-07-08 12:55:50 +0000"
@@ -2618,6 +2777,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2019-07-08 10:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2019-09-02 12:01:07 +0000"
     },
     "done": true
   },
@@ -2681,5 +2846,11 @@
     },
     "done": true
   },
-  "DataVersion": 1968
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2019-09-02 10:59:43 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 1976
 }
