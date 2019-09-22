@@ -191,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2019-09-15 07:55:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2019-07-09 05:29:25 +0000"
@@ -601,7 +607,8 @@
       "minecraft:enderman": "2019-07-09 05:47:22 +0000",
       "minecraft:silverfish": "2019-09-06 10:29:58 +0000",
       "minecraft:zombie": "2019-07-08 05:22:50 +0000",
-      "minecraft:drowned": "2019-07-09 12:45:34 +0000"
+      "minecraft:drowned": "2019-07-09 12:45:34 +0000",
+      "minecraft:zombie_villager": "2019-09-15 07:50:52 +0000"
     },
     "done": false
   },
@@ -1178,6 +1185,7 @@
       "minecraft:taiga_hills": "2019-09-06 10:24:20 +0000",
       "minecraft:desert": "2019-07-08 05:21:22 +0000",
       "minecraft:deep_lukewarm_ocean": "2019-09-07 09:31:03 +0000",
+      "minecraft:savanna_plateau": "2019-09-13 04:56:20 +0000",
       "minecraft:beach": "2019-07-08 05:22:08 +0000",
       "minecraft:river": "2019-07-08 05:22:12 +0000",
       "minecraft:lukewarm_ocean": "2019-07-09 05:27:52 +0000",
